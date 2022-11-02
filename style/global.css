@@ -1,0 +1,126 @@
+body {
+    background-color: #000000;
+}
+
+
+/* Header */
+.header-container {
+    width: 100%;
+    max-width: 1640px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 46px;
+    color: #FFFFFF;
+}
+.header-logo {
+    display: flex;
+    align-items: center;
+}
+.header-logo img{
+    width: 100%;
+    max-width: 45px;
+}
+.header-title {
+    font-family: 'poppins-bold_f', sans-serif;
+    font-size: 37px;
+    margin-left: 16px;
+}
+.header-nav {
+    width: 100%;
+    max-width: 398px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav__title {
+    font-family: 'poppins-med_f', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: #707070;
+}
+.nav__title:nth-child(1)::after{
+    content: '';
+    width: 7px;
+    height: 7px;
+    display: inline-block;
+    border-bottom: 2px solid #707070;
+    border-left: 2px solid #707070;
+    transform: rotate(-45deg);
+    margin-left: 9px;
+    margin-bottom: 4px;
+}
+.nav__title.active{
+    color: #3C82F4;
+}
+.header-signin {
+    width: 100%;
+    max-width: 197px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-login {
+    font-family: 'poppins-med_f', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: #707070;
+    border-radius: 4px;
+}
+.header-signUp {
+    height: 55px;
+    width: 119px;
+    background-color: #306EF7;
+    border-radius: 4px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.header-signUp-title {
+    font-family: 'poppins-med_f', sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.footer__container {
+    width: 100%;
+    max-width: 1641px;
+    margin: 140px auto 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__main {
+    width: 100%;
+    max-width: 223px;
+    align-items: center;
+}
+.footer__logo {
+    display: flex;
+    align-items: center;
+
+}
+.footer__title {
+    font-family: 'poppins-bold_f', sans-serif;
+    color: #FFFFFF;
+    font-size: 42px;
+    line-height: 63px;
+    margin-left: 22px;
+}
+
+.mail {
+    font-family: 'poppins-reg_f', sans-serif;
+    font-size: 24px;
+    line-height: 40px;
+    color: #707070;
+    text-decoration: none;
+    text-align: center;
+
+}
+.footer-nav {
+    width: 100%;
+    max-width: 476px;
+    display: flex;
+    justify-content: space-between;
+}
+
